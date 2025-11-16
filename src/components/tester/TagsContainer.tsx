@@ -1,4 +1,4 @@
-import Tag from "@/components/ui/Tag";
+import Tag from "@/components/tester/Tag";
 
 interface TagsContainerProps {
   tags: string[];

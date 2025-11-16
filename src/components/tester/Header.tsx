@@ -1,4 +1,4 @@
-import LogoTitle from "@/components/LogoTitle";
+import LogoTitle from "@/components/tester/logo";
 import ThemeSwitcher from "@/components/theme-switcher";
 
 export default function Header() {

@@ -2,7 +2,7 @@
 
 "use client";
 
-import TagsContainer from "@/components/ui/TagsContainer";
+import TagsContainer from "@/components/tester/TagsContainer";
 
 const title = "Hello World";
 const content = "This is a test content";

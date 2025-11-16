@@ -3,8 +3,8 @@
 import { useTheme } from "next-themes";
 import { useEffect } from "react";
 
-import StaticCard from "@/components/ui/StaticCard";
-import TagsContainer from "@/components/ui/TagsContainer";
+import StaticCard from "@/components/tester/StaticCard";
+import TagsContainer from "@/components/tester/TagsContainer";
 import type { Post } from "@/types/file";
 import formatDate from "@/utils/formatDate";
 

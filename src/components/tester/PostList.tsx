@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-import HoverCard from "@/components/ui/HoverCard";
-import TagsContainer from "@/components/ui/TagsContainer";
-import { Post } from "@/types/file";
+import HoverCard from "@/components/tester/HoverCard";
+import TagsContainer from "@/components/tester/TagsContainer";
+import type { Post } from "@/types/file";
 import formatDate from "@/utils/formatDate";
 
 interface PostListProps {

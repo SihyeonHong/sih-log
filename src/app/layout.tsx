@@ -4,8 +4,8 @@ import "@/styles/globals.css";
 import ThemeProvider from "@/provider/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "nai.log",
-  description: "모르는 게 더 많을 나이",
+  title: "sih.log",
+  description: "개발자 홍시현의 기록",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" suppressHydrationWarning>
-      <body className={`antialiased`}>
+      <body className="leading-relaxed antialiased">
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>

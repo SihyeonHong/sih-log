@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Post from "@/components/Post";
 import { getAllPosts, getMarkdownContent } from "@/utils/github";
 
 export const revalidate = 3600; // ISR 설정
@@ -23,12 +20,8 @@ export default async function Page({ params }: PageProps) {
   }
 
   return (
-    <div className="bg-background min-h-screen">
-      <Header />
-      <main className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-12">
-        <Post post={post}></Post>
-      </main>
-      <Footer />
+    <div className="flex min-h-screen w-full flex-col items-center justify-center">
+      <p className="text-muted">새로운 디자인 준비 중...</p>
     </div>
   );
 }

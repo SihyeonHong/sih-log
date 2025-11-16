@@ -1,13 +1,13 @@
-import Container from "@/components/Container";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import Main from "@/components/main";
+import SideBar from "@/components/sidebar";
+import Header from "@/components/ui/header";
 
 export default function Page() {
   return (
-    <div className="flex min-h-screen w-full flex-col">
+    <div className="bg-background-secondary text-foreground border-border min-h-screen border">
       <Header />
-      <Container />
-      <Footer />
+      <Main />
+      <SideBar />
     </div>
   );
 }

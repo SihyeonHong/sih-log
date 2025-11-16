@@ -1,4 +1,4 @@
-import PostList from "@/components/PostList";
+import PostList from "@/components/tester/PostList";
 import { getAllPosts } from "@/utils/github";
 
 export default async function Container() {

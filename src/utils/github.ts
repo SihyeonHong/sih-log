@@ -16,7 +16,7 @@ import type {
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const REPO_OWNER = process.env.REPO_OWNER;
 const REPO_NAME = process.env.REPO_NAME;
-const POSTS_PATH = process.env.REPO_FOLDER_NAME; // 마크다운 파일들이 있는 폴더
+const POSTS_PATH = process.env.POSTS_PATH;
 
 // private repo 접근을 위해 토큰 필수 체크
 if (!GITHUB_TOKEN) {

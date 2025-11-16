@@ -1,3 +1,5 @@
+/* stone 테마 */
+
 /* 다크 or 라이트 테마 공통 변수 */
 :root {
   --primary: #264d00; /* 메인 녹색 */
@@ -5,39 +7,41 @@
 
   --muted: #8a8781;
 
-  --tag-background: #f1f5f9; /* 더 부드러운 회색 */
   --tag-foreground: #475569; /* 더 진한 회색 */
   --tag-hover: #e2e8f0; /* 호버 효과용 */
 
   /* ThemeSwitcher */
   --theme-switcher-light: #fbbf24; /* 노란색 */
   --theme-switcher-light-hover: #f59e0b; /* 주황색 */
-  --theme-switcher-dark: var(--primary); /* 메인 녹색 사용 */
-  --theme-switcher-dark-hover: var(--primary-hover); /* 호버 시 녹색 */
+  --theme-switcher-dark: #4c1d95; /* violet-900 */
+  --theme-switcher-dark-hover: #2e1065; /* violet-950 */
 }
 
 /* light mode only */
 :root {
-  --background: #ffffff;
-  --foreground: #1a1a1a; /* 기본 폰트 색상 */
+  --background: #ffffff; /* white */
+  --background-secondary: #f5f5f4; /* stone-100 */
+  --foreground: #1c1917; /* stone-900 */
 
   --border: #e5e5e5;
+
+  --tag-background: #f1f5f9; /* 더 부드러운 회색 */
 
   --card-background: #ffffff;
   --code-block-background: #f9fafb;
   --code-inline-background: #f3f4f6;
-  --footer-background: #f8fafc;
 }
 
 .dark {
-  --background: #1a1816; /* 더 어두운 색: #0f0f0f */
-  --foreground: #d8d6ce;
-  --secondary: #b8b5ad; /* 안 쓰는데 그냥 예뻐서 남겨둠 좀 더 흐린 텍스트 색상 */
+  --background: #1c1917; /* stone-900 */
+  --background-secondary: #0c0a09; /* stone-950 */
+  --foreground: #f5f5f4; /* stone-50 */
 
-  --border: #3a3732;
+  --border: #3f3c39; /* stone-800 */
 
   --card-background: #1a1816;
   --code-block-background: #272522;
   --code-inline-background: #32302c;
-  --footer-background: #1a1816;
+
+  --tag-background: #e0e4e8; /* 라이트 모드보다 약간 어두운 회색 */
 }

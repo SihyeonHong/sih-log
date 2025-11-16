@@ -1,5 +1,5 @@
 import Main from "@/components/main";
-import SideBar from "@/components/sid2ebar";
+import SideBar from "@/components/sidebar";
 import Header from "@/components/ui/header";
 
 export default function Page() {
